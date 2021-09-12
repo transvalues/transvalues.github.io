@@ -226,42 +226,42 @@ div.text-wrapper {
     display: inline-block;
 }
 div.equality {
-    background-color: #f44336;
+    background-color: #50ABF1;
     text-align: left;
     border-right-style: solid;
 }
 div.wealth {
-    background-color: #00897b;
+    background-color: #28AE1F;
     text-align: right;
     border-left-style: solid;
 }
 div.liberty {
-    background-color: #ffeb3b;
+    background-color: #FFD800;
     text-align: left;
     border-right-style: solid;
 }
 div.authority {
-    background-color: #3f51b5;
+    background-color: #0080FF;
     text-align: right;
     border-left-style: solid;
 }
 div.peace {
-    background-color: #03a9f4;
+    background-color: #FF8F00;
     text-align: right;
     border-left-style: solid;
 }
 div.might {
-    background-color: #ff9800;
+    background-color: #A6BBDA;
     text-align: left;
     border-right-style: solid;
 }
 div.progress {
-    background-color: #9c27b0;
+    background-color: #5BCEFA;
     text-align: right;
     border-left-style: solid;
 }
 div.tradition {
-    background-color: #8bc34a;
+    background-color: #EA90AB;
     text-align: left;
     border-right-style: solid;
 }

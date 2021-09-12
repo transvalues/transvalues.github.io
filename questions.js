@@ -18,6 +18,15 @@ questions = [
         }
     },
     {
+        "question": "Neopronouns are valid",
+        "effect": {
+            "socials": -10,
+            "trus": -10,
+            "hrt": 0,
+            "lib": -5
+        }
+    },
+    {
         "question": "I know what the word \"tripfag\" means",
         "effect": {
             "socials": -10,
@@ -27,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "If you don't experience gender dysphoria, you are not transgender.",
+        "question": "If you don't experience gender dysphoria, you are not transgender",
         "effect": {
             "socials": 10,
             "trus": 2,
@@ -63,7 +72,7 @@ questions = [
         }
     },
     {
-        "question": "The goal of transitioning is to blend into cis society.",
+        "question": "The goal of transitioning is to blend into cis society",
         "effect": {
             "socials": 0,
             "trus": 0,
@@ -72,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Trans people need to unapologetically be themselves, regardless of societies opinion.",
+        "question": "Trans people need to unapologetically be themselves, regardless of societies opinion",
         "effect": {
             "socials": -10,
             "trus": 0,
@@ -90,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Gender dysphoria is a mental illness.",
+        "question": "Gender dysphoria is a mental illness",
         "effect": {
             "socials": 10,
             "trus": 10,
@@ -99,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "Most endocrinologists providing trans healthcare are incompetent.",
+        "question": "Most endocrinologists providing trans healthcare are incompetent",
         "effect": {
             "socials": 0,
             "trus": 0,
@@ -117,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "A lot of people are trans purely for attention and brownie points.",
+        "question": "A lot of people are trans purely for attention and brownie points",
         "effect": {
             "socials": 10,
             "trus": 10,
@@ -126,7 +135,16 @@ questions = [
         }
     },
     {
-        "question": "Psychiatric evaluation is necessary before hrt should be given",
+        "question": "Gender abolitionism is desirable",
+        "effect": {
+            "socials": 10,
+            "trus": -5,
+            "hrt": 0,
+            "lib": 5
+        }
+    },
+    {
+        "question": "Psychiatric evaluation is necessary before HRT should be given",
         "effect": {
             "socials": 0,
             "trus": 0,
