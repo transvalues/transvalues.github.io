@@ -14,33 +14,33 @@
 </script>
 
 <body>
-<h1>8values</h1>
+<h1>mtfvalues</h1>
 <hr>
 
 <h1>Results</h1>
 
-<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+<h2>socials Axis: <span class="weight-300" id="socials-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
     <img id="img-wealth" src="value_images/markets.svg" height="128pt"/>
 </div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>truscum Axis: <span class="weight-300" id="truscum-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/nation.svg" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
     <img id="img-peace" src="value_images/globe.svg" height="128pt"/>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>hrtaccess Axis: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>liberation Axis: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
@@ -91,10 +91,10 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    socialsArray = ["Twitter User","placeholder","holder","Redditor","Edgy","4chan lurker","/tttt/ User"]
+    trusArray = ["Blaire White","placeholder","placeholder","placeholder","placeholder","placeholder","placeholder"]
+    hrtArray = ["hrtaccesser","r/traaaaaa User","placeholder","placeholder","placeholder","placeholder","Philtrumhon"]
+    libArray = ["Assimilationist","placeholder","placeholder","placeholder","placeholder","placeholder","Transbian Mailbomber"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -126,19 +126,19 @@ stats"></a></div></noscript>
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
 
-    document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
+    document.getElementById("socials-label").innerHTML = setLabel(equality, socialsArray)
+    document.getElementById("truscum-label").innerHTML = setLabel(peace, trusArray)
+    document.getElementById("state-label").innerHTML = setLabel(liberty, hrtArray)
+    document.getElementById("society-label").innerHTML = setLabel(progress, libArray)
 
     ideology = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.socials - equality), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.hrt - liberty), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.trus - peace), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.lib - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
@@ -220,12 +220,12 @@ stats"></a></div></noscript>
 
         ctx.font="300 30px Montserrat"
         ctx.fillText("8values.github.io", 780, 60)
-		ctx.fillText(version, 780, 90)
+		    ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText("socials Axis: " + document.getElementById("socials-label").innerHTML, 400, 175)
+        ctx.fillText("truscum Axis: " + document.getElementById("truscum-label").innerHTML, 400, 295)
+        ctx.fillText("hrtaccess Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
+        ctx.fillText("liberation Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
 
         document.getElementById("banner").src = c.toDataURL();
     }
