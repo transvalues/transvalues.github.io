@@ -11,8 +11,17 @@ questions = [
     {
         "question": "Autogynephelia is a real phenomena",
         "effect": {
-            "socials": -10,
-            "trus": 2,
+            "socials": 10,
+            "trus": -2,
+            "hrt": 0,
+            "lib": -5
+        }
+    },
+    {
+        "question": "Xenogenders are stupid",
+        "effect": {
+            "socials": 5,
+            "trus": -5,
             "hrt": 0,
             "lib": -5
         }
@@ -20,10 +29,10 @@ questions = [
     {
         "question": "Neopronouns are valid",
         "effect": {
-            "socials": -10,
-            "trus": -10,
+            "socials": 10,
+            "trus": 10,
             "hrt": 0,
-            "lib": -5
+            "lib": 2
         }
     },
     {
@@ -38,7 +47,7 @@ questions = [
     {
         "question": "If you don't experience gender dysphoria, you are not transgender",
         "effect": {
-            "socials": 10,
+            "socials": 5,
             "trus": 2,
             "hrt": 0,
             "lib": -2
@@ -144,7 +153,16 @@ questions = [
         }
     },
     {
-        "question": "Psychiatric evaluation is necessary before HRT should be given",
+        "question": "America's \"informed consent\" model for HRT is preferable to european trans healthcare",
+        "effect": {
+            "socials": 10,
+            "trus": -5,
+            "hrt": 0,
+            "lib": 5
+        }
+    },
+    {
+        "question": "HRT should never be given without psychiatric evaluation",
         "effect": {
             "socials": 0,
             "trus": 0,
