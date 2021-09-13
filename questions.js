@@ -3,7 +3,7 @@ questions = [
       "question": "Only people who wish to or have undergone medical transition, should speak for the trans community",
       "effect": {
           "socials": 2,
-          "trus": -5,
+          "trus": -3,
           "hrt": 0,
           "lib": -2
       }
@@ -21,7 +21,7 @@ questions = [
       "question": "Being trans can be a choice",
       "effect": {
           "socials": -5,
-          "trus": -5,
+          "trus": 5,
           "hrt": 0,
           "lib": 5
       }
@@ -48,7 +48,7 @@ questions = [
       "question": "The goal of transitioning is \"passing\" as the opposite gender",
       "effect": {
           "socials": 5,
-          "trus": 0,
+          "trus": 1,
           "hrt": 0,
           "lib": -8
       }
@@ -57,7 +57,7 @@ questions = [
       "question": "Even if it is a dead meme, \"attack helicopter\" is theoretically a valid gender identity",
       "effect": {
           "socials": -5,
-          "trus": 5,
+          "trus": 4,
           "hrt": 0,
           "lib": -3
       }
@@ -84,7 +84,7 @@ questions = [
       "question": "If you don't experience gender dysphoria, you are not transgender",
       "effect": {
           "socials": 2,
-          "trus": 7,
+          "trus": -7,
           "hrt": 0,
           "lib": -2
       }
@@ -93,7 +93,7 @@ questions = [
       "question": "Xenogenders (stargender, etc...) are stupid",
       "effect": {
           "socials": 6,
-          "trus": -4,
+          "trus": -3,
           "hrt": 0,
           "lib": -5
       }
@@ -246,7 +246,7 @@ questions = [
       "question": "A lot of people are trans purely for attention and brownie points",
       "effect": {
           "socials": 6,
-          "trus": -6,
+          "trus": -5,
           "hrt": 0,
           "lib": -2
       }
