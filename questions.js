@@ -14,16 +14,7 @@ questions = [
           "socials": 5,
           "trus": -2,
           "hrt": 0,
-          "lib": -5
-      }
-  },
-  {
-      "question": "Xenogenders are stupid",
-      "effect": {
-          "socials": 5,
-          "trus": -5,
-          "hrt": 0,
-          "lib": -5
+          "lib": -2
       }
   },
   {
@@ -31,7 +22,7 @@ questions = [
       "effect": {
           "socials": -5,
           "trus": -5,
-          "hrt": -2,
+          "hrt": 0,
           "lib": 5
       }
   },
@@ -41,16 +32,16 @@ questions = [
           "socials": 5,
           "trus": -2,
           "hrt": 0,
-          "lib": -2
+          "lib": 0
       }
   },
   {
       "question": "All trans women can be grouped into 2 categories: AGP and HSTS",
       "effect": {
-          "socials": 8,
+          "socials": 7,
           "trus": -2,
           "hrt": 0,
-          "lib": -5
+          "lib": 0
       }
   },
   {
@@ -59,7 +50,7 @@ questions = [
           "socials": 5,
           "trus": -2,
           "hrt": 0,
-          "lib": -6
+          "lib": -8
       }
   },
   {
@@ -83,7 +74,7 @@ questions = [
   {
       "question": "I know what the word \"tripfag\" means",
       "effect": {
-          "socials": 7,
+          "socials": 8,
           "trus": 0,
           "hrt": 0,
           "lib": 0
@@ -99,12 +90,21 @@ questions = [
       }
   },
   {
+      "question": "Xenogenders (stargender, etc...) are stupid",
+      "effect": {
+          "socials": 5,
+          "trus": -5,
+          "hrt": 0,
+          "lib": -5
+      }
+  },
+  {
       "question": "Trans people are often unnecessarily harsh on themselves and their own appearance",
       "effect": {
-          "socials": -5,
+          "socials": -2,
           "trus": 0,
           "hrt": 0,
-          "lib": 5
+          "lib": 2
       }
   },
   {
@@ -119,7 +119,7 @@ questions = [
   {
       "question": "Trans people can never feel free in cisnormative society",
       "effect": {
-          "socials": -5,
+          "socials": -3,
           "trus": 4,
           "hrt": 0,
           "lib": -5
@@ -131,6 +131,15 @@ questions = [
           "socials": 0,
           "trus": 0,
           "hrt": -6,
+          "lib": 0
+      }
+  },
+  {
+      "question": "DIY HRT for transmascs should be legal, even if it enables steroid usage",
+      "effect": {
+          "socials": 0,
+          "trus": 0,
+          "hrt": -4,
           "lib": 0
       }
   },
@@ -164,7 +173,7 @@ questions = [
   {
       "question": "The 4chan trans subculture is toxic and actively makes trans people within it miserable",
       "effect": {
-          "socials": -3,
+          "socials": -4,
           "trus": 0,
           "hrt": 0,
           "lib": 2
@@ -174,7 +183,7 @@ questions = [
       "question": "The absence of urinals in womens toilets is transphobic",
       "effect": {
           "socials": -4,
-          "trus": 3,
+          "trus": 0,
           "hrt": 0,
           "lib": 2
       }
@@ -211,7 +220,7 @@ questions = [
       "effect": {
           "socials": 0,
           "trus": 0,
-          "hrt": 6,
+          "hrt": 4,
           "lib": 0
       }
   },
@@ -222,6 +231,15 @@ questions = [
           "trus": 0,
           "hrt": 4,
           "lib": 0
+      }
+  },
+  {
+      "question": "Trans liberation through assimilation",
+      "effect": {
+          "socials": 0,
+          "trus": 0,
+          "hrt": 0,
+          "lib": -6
       }
   },
   {
@@ -236,9 +254,9 @@ questions = [
   {
       "question": "HRT should only be a last resort, not a first line treatment",
       "effect": {
-          "socials": -1,
+          "socials": 0,
           "trus": 0,
-          "hrt": 5,
+          "hrt": 3,
           "lib": 0
       }
   },
@@ -246,7 +264,7 @@ questions = [
       "question": "Gender abolitionism is desirable",
       "effect": {
           "socials": -5,
-          "trus": 6,
+          "trus": 3,
           "hrt": 0,
           "lib": 8
       }
@@ -275,6 +293,24 @@ questions = [
           "socials": 0,
           "trus": -2,
           "hrt": 5,
+          "lib": 0
+      }
+  },
+  {
+      "question": "Online mainstream trans discourse is dominated by cis men who dont understand trans issues",
+      "effect": {
+          "socials": -3,
+          "trus": 0,
+          "hrt": 0,
+          "lib": 0
+      }
+  },
+  {
+      "question": "Eugenics through gene editing to end gender dysphoria is desirable",
+      "effect": {
+          "socials": 4,
+          "trus": -2,
+          "hrt": 0,
           "lib": 0
       }
   }

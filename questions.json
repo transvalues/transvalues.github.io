@@ -19,20 +19,11 @@
       }
   },
   {
-      "question": "Xenogenders are stupid",
-      "effect": {
-          "socials": 5,
-          "trus": -5,
-          "hrt": 0,
-          "lib": -5
-      }
-  },
-  {
       "question": "Being trans can be a choice",
       "effect": {
           "socials": -5,
           "trus": -5,
-          "hrt": -2,
+          "hrt": 0,
           "lib": 5
       }
   },
@@ -42,16 +33,16 @@
           "socials": 5,
           "trus": -2,
           "hrt": 0,
-          "lib": -2
+          "lib": 0
       }
   },
   {
       "question": "All trans women can be grouped into 2 categories: AGP and HSTS",
       "effect": {
-          "socials": 8,
+          "socials": 7,
           "trus": -2,
           "hrt": 0,
-          "lib": -5
+          "lib": 0
       }
   },
   {
@@ -60,7 +51,7 @@
           "socials": 5,
           "trus": -2,
           "hrt": 0,
-          "lib": -6
+          "lib": -8
       }
   },
   {
@@ -100,12 +91,21 @@
       }
   },
   {
+      "question": "Xenogenders (stargender, etc...) are stupid",
+      "effect": {
+          "socials": 5,
+          "trus": -5,
+          "hrt": 0,
+          "lib": -5
+      }
+  },
+  {
       "question": "Trans people are often unnecessarily harsh on themselves and their own appearance",
       "effect": {
-          "socials": -5,
+          "socials": -3,
           "trus": 0,
           "hrt": 0,
-          "lib": 5
+          "lib": 3
       }
   },
   {
@@ -120,7 +120,7 @@
   {
       "question": "Trans people can never feel free in cisnormative society",
       "effect": {
-          "socials": -5,
+          "socials": -3,
           "trus": 4,
           "hrt": 0,
           "lib": -5
@@ -132,6 +132,15 @@
           "socials": 0,
           "trus": 0,
           "hrt": -6,
+          "lib": 0
+      }
+  },
+  {
+      "question": "DIY HRT for transmascs should be legal, even if it enables steroid usage",
+      "effect": {
+          "socials": 0,
+          "trus": 0,
+          "hrt": -4,
           "lib": 0
       }
   },
@@ -175,7 +184,7 @@
       "question": "The absence of urinals in womens toilets is transphobic",
       "effect": {
           "socials": -4,
-          "trus": 3,
+          "trus": 0,
           "hrt": 0,
           "lib": 2
       }
@@ -212,7 +221,7 @@
       "effect": {
           "socials": 0,
           "trus": 0,
-          "hrt": 6,
+          "hrt": 4,
           "lib": 0
       }
   },
@@ -223,6 +232,15 @@
           "trus": 0,
           "hrt": 4,
           "lib": 0
+      }
+  },
+  {
+      "question": "Trans liberation through assimilation",
+      "effect": {
+          "socials": 0,
+          "trus": 0,
+          "hrt": 0,
+          "lib": -6
       }
   },
   {
@@ -237,9 +255,9 @@
   {
       "question": "HRT should only be a last resort, not a first line treatment",
       "effect": {
-          "socials": -1,
+          "socials": 0,
           "trus": 0,
-          "hrt": 5,
+          "hrt": 3,
           "lib": 0
       }
   },
@@ -247,7 +265,7 @@
       "question": "Gender abolitionism is desirable",
       "effect": {
           "socials": -5,
-          "trus": 6,
+          "trus": 3,
           "hrt": 0,
           "lib": 8
       }
@@ -276,6 +294,24 @@
           "socials": 0,
           "trus": -2,
           "hrt": 5,
+          "lib": 0
+      }
+  },
+  {
+      "question": "Online mainstream trans discourse is dominated by cis men who dont understand trans issues",
+      "effect": {
+          "socials": -3,
+          "trus": 0,
+          "hrt": 0,
+          "lib": 0
+      }
+  },
+  {
+      "question": "Eugenics through gene editing to end gender dysphoria is desirable",
+      "effect": {
+          "socials": 4,
+          "trus": -2,
+          "hrt": 0,
           "lib": 0
       }
   }
