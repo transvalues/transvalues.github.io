@@ -1,4 +1,5 @@
-questions = [
+{
+"q": [
   {
       "question": "Only people who wish to or have undergone medical transition, should speak for the trans community",
       "effect": {
@@ -278,4 +279,4 @@ questions = [
           "lib": 0
       }
   }
-];
+]}
