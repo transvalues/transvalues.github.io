@@ -12,7 +12,7 @@ questions = [
       "question": "Autogynephelia is a real phenomena",
       "effect": {
           "socials": 5,
-          "trus": -2,
+          "trus": 0,
           "hrt": 0,
           "lib": -2
       }
@@ -48,7 +48,7 @@ questions = [
       "question": "The goal of transitioning is \"passing\" as the opposite gender",
       "effect": {
           "socials": 5,
-          "trus": -2,
+          "trus": 0,
           "hrt": 0,
           "lib": -8
       }
@@ -65,8 +65,8 @@ questions = [
   {
       "question": "Neopronouns are valid",
       "effect": {
-          "socials": -6,
-          "trus": 6,
+          "socials": -7,
+          "trus": 4,
           "hrt": 0,
           "lib": 3
       }
@@ -92,8 +92,8 @@ questions = [
   {
       "question": "Xenogenders (stargender, etc...) are stupid",
       "effect": {
-          "socials": 5,
-          "trus": -5,
+          "socials": 6,
+          "trus": -4,
           "hrt": 0,
           "lib": -5
       }
@@ -120,7 +120,7 @@ questions = [
       "question": "Trans people can never feel free in cisnormative society",
       "effect": {
           "socials": -3,
-          "trus": 4,
+          "trus": 3,
           "hrt": 0,
           "lib": -5
       }
