@@ -39,13 +39,14 @@
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/legit.png" height="128pt"/>
 </div>
-<h2>Queer Liberation Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>Trans Liberation Axis: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/assimilation.png" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/liberation.png" height="128pt"/>
 </div>
+
 <br><br><br>
 <button class="button" onclick="location.href='index.html';">Back</button> <br>
 <script>
@@ -70,10 +71,10 @@
         }
     }
 
-    socialsArray = ["r/traaaaaaaaa user","Reply guy","Edgy","4chan lurker","/tttt/ poster"]
-    trusArray = ["Blaire White","Crippling Dysphoric","placeholder","placeholder","Xenogender Enjoyer"]
-    hrtArray = ["Lena juicer","Informed consent fan","Safety concerned","placeholder","Medical Gatekeeper"]
-    libArray = ["Assimilationist","Pride marcher","Pride marcher","Stonewall Fan","Transbian Mailbomber"]
+    socialsArray = ["r/traaaaaaaaa User","Private Quote Tweeter","Edgy","4chan lurker","/tttt/ poster"]
+    trusArray = ["Blaire White","Cafebeef","Crippling Dysphoric","Annoyed Progressive","Xenogender Enjoyer"]
+    hrtArray = ["Lena Juicer","Spiro And Estro From Vanuatu","Informed Consent Fan","Concerned","Medical Gatekeeper"]
+    libArray = ["Assimilationist","Reformist","Pride Marcher","Stonewall Fan","Transbian Mailbomber"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -104,24 +105,9 @@
     setBarValue("tradition", tradition)
 
     document.getElementById("socials-label").innerHTML = setLabel(wealth, socialsArray)
-    document.getElementById("truscum-label").innerHTML = setLabel(peace, trusArray)
+    document.getElementById("truscum-label").innerHTML = setLabel(might, trusArray)
     document.getElementById("state-label").innerHTML = setLabel(authority, hrtArray)
     document.getElementById("society-label").innerHTML = setLabel(tradition, libArray)
-
-    ideology = ""
-    ideodist = Infinity
-    for (var i = 0; i < ideologies.length; i++) {
-        dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.socials - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.hrt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.trus - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.lib - progress), 1.73856063)
-        if (dist < ideodist) {
-            ideology = ideologies[i].name
-            ideodist = dist
-        }
-    }
-    document.getElementById("ideology-label").innerHTML = ideology
 
     function createImage(src, x, y, w, h) {
         img = new Image ()

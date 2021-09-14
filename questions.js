@@ -36,6 +36,15 @@ questions = [
       }
   },
   {
+      "question": "Cis women are justified to be uncomfortable in bathrooms around masculine presenting trans women",
+      "effect": {
+          "socials": 5,
+          "trus": -2,
+          "hrt": 0,
+          "lib": 0
+      }
+  },
+  {
       "question": "All trans women can be grouped into 2 categories: AGP and HSTS",
       "effect": {
           "socials": 7,
@@ -48,24 +57,24 @@ questions = [
       "question": "The goal of transitioning is \"passing\" as the opposite gender",
       "effect": {
           "socials": 5,
-          "trus": 1,
+          "trus": -1,
           "hrt": 0,
-          "lib": -8
+          "lib": -6
       }
   },
   {
       "question": "Even if it is a dead meme, \"attack helicopter\" is theoretically a valid gender identity",
       "effect": {
-          "socials": -5,
+          "socials": -6,
           "trus": 4,
           "hrt": 0,
-          "lib": -3
+          "lib": 3
       }
   },
   {
       "question": "Neopronouns are valid",
       "effect": {
-          "socials": -7,
+          "socials": -6,
           "trus": 4,
           "hrt": 0,
           "lib": 3
@@ -130,7 +139,7 @@ questions = [
       "effect": {
           "socials": 0,
           "trus": 0,
-          "hrt": -6,
+          "hrt": -5,
           "lib": 0
       }
   },
@@ -139,7 +148,7 @@ questions = [
       "effect": {
           "socials": 0,
           "trus": 0,
-          "hrt": -4,
+          "hrt": -5,
           "lib": 0
       }
   },
@@ -149,14 +158,14 @@ questions = [
           "socials": 0,
           "trus": 0,
           "hrt": 0,
-          "lib": -6
+          "lib": -5
       }
   },
   {
       "question": "Trans people need to unapologetically be themselves, regardless of societies opinion",
       "effect": {
           "socials": -5,
-          "trus": 0,
+          "trus": 2,
           "hrt": 0,
           "lib": 6
       }
@@ -176,7 +185,7 @@ questions = [
           "socials": -4,
           "trus": 0,
           "hrt": 0,
-          "lib": 2
+          "lib": 1
       }
   },
   {
@@ -198,11 +207,11 @@ questions = [
       }
   },
   {
-      "question": "DIY HRT is better than a prescription because it gives you more options",
+      "question": "DIY HRT is better than a prescription because it gives you more options and freedom",
       "effect": {
-          "socials": 0,
+          "socials": 1,
           "trus": 0,
-          "hrt": -6,
+          "hrt": -5,
           "lib": 0
       }
   },
@@ -245,7 +254,7 @@ questions = [
   {
       "question": "A lot of people are trans purely for attention and brownie points",
       "effect": {
-          "socials": 6,
+          "socials": 5,
           "trus": -5,
           "hrt": 0,
           "lib": -2
@@ -264,9 +273,9 @@ questions = [
       "question": "Gender abolitionism is desirable",
       "effect": {
           "socials": -5,
-          "trus": 3,
+          "trus": 2,
           "hrt": 0,
-          "lib": 8
+          "lib": 7
       }
   },
   {
@@ -284,7 +293,7 @@ questions = [
           "socials": 0,
           "trus": 1,
           "hrt": 0,
-          "lib": 3
+          "lib": 2
       }
   },
   {
@@ -302,16 +311,16 @@ questions = [
           "socials": -3,
           "trus": 0,
           "hrt": 0,
-          "lib": 0
+          "lib": 1
       }
   },
   {
       "question": "Eugenics through gene editing to end gender dysphoria is desirable",
       "effect": {
-          "socials": 4,
+          "socials": 3,
           "trus": -2,
           "hrt": 0,
-          "lib": 0
+          "lib": -3
       }
   }
 ];
