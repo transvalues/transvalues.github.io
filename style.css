@@ -107,11 +107,12 @@ div.center {
 div.leftexplain {
     text-align: left;
     padding-left: 175px;
+    padding-right: 40px;
     height: 160px;
 }
 div.rightexplain {
-    text-align: right;
-    padding-right: 175px;
+    text-align: left;
+    padding-left: 40px;
     height: 160px;
 }
 img.leftexplain {
