@@ -115,15 +115,13 @@ div.rightexplain {
 img.leftexplain {
     float: left;
     margin-right: 2%;
-    width: auto;
-    height: 160px;
+    width: 160px;
     transition: transform .3s;
 }
 img.rightexplain {
     float: right;
     margin-left: 2%;
-    width: auto;
-    height: 160px;
+    width: 160px;
     transition: transform .3s;
 }
 img.quadcolumn {
