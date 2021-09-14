@@ -320,7 +320,6 @@ questions = [
           "socials": 3,
           "trus": -2,
           "hrt": 0,
-          "lib": -3
-      }
+          "lib": -3      }
   }
 ];

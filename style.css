@@ -104,6 +104,29 @@ div.center {
     font-size: 24pt;
     margin: auto;
 }
+div.leftexplain {
+    display: block;
+    overflow: auto;
+    height: 160px;
+}
+div.rightexplain {
+    display: block;
+    height: 160px;
+}
+img.leftexplain {
+    float: left;
+    margin-right: 2%;
+    width: auto;
+    height: 160px;
+    transition: transform .3s;
+}
+img.rightexplain {
+    float: right;
+    margin-left: 2%;
+    width: auto;
+    height: 160px;
+    transition: transform .3s;
+}
 img.quadcolumn {
     width: 23.75%;
     transition: transform .3s;
