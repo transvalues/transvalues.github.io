@@ -105,22 +105,29 @@ div.center {
     margin: auto;
 }
 div.leftexplain {
+    display: block;
     text-align: left;
     padding-left: 175px;
     padding-right: 40px;
-    height: 160px;
+    margin:auto;
+    min-height: 160px;
 }
 div.rightexplain {
+    display: block;
     text-align: left;
     padding-left: 40px;
-    height: 160px;
+    margin:auto;
+    min-height: 160px;
 }
 img.leftexplain {
+    display: block;
     float: left;
     width: 160px;
+    margin:auto;
     transition: transform .3s;
 }
 img.rightexplain {
+    display: block;
     float: right;
     width: 160px;
     transition: transform .3s;
