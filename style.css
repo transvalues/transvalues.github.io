@@ -106,7 +106,6 @@ div.center {
 }
 div.leftexplain {
     display: block;
-    overflow: auto;
     height: 160px;
 }
 div.rightexplain {
