@@ -9,7 +9,7 @@ questions = [
       }
   },
   {
-      "question": "Autogynephelia is a real phenomena",
+      "question": "Autogynephelia is a real phenomenon",
       "effect": {
           "socials": 5,
           "trus": 0,
@@ -56,14 +56,14 @@ questions = [
   {
       "question": "The goal of transitioning is \"passing\" as the opposite gender",
       "effect": {
-          "socials": 5,
+          "socials": 4,
           "trus": -1,
           "hrt": 0,
           "lib": -6
       }
   },
   {
-      "question": "Even if it is a dead meme, \"attack helicopter\" is theoretically a valid gender identity",
+      "question": "Even if it is a dead meme, \"attack helicopter\" would theoretically be a valid gender identity",
       "effect": {
           "socials": -6,
           "trus": 4,
@@ -78,15 +78,6 @@ questions = [
           "trus": 4,
           "hrt": 0,
           "lib": 3
-      }
-  },
-  {
-      "question": "I know what the word \"tripfag\" means",
-      "effect": {
-          "socials": 8,
-          "trus": 0,
-          "hrt": 0,
-          "lib": 0
       }
   },
   {
@@ -171,6 +162,15 @@ questions = [
       }
   },
   {
+      "question": "I know what the word \"tripfag\" means",
+      "effect": {
+          "socials": 8,
+          "trus": 0,
+          "hrt": 0,
+          "lib": 0
+      }
+  },
+  {
       "question": "The medical risks of HRT are overblown",
       "effect": {
           "socials": 0,
@@ -186,6 +186,15 @@ questions = [
           "trus": 0,
           "hrt": 0,
           "lib": 1
+      }
+  },
+  {
+      "question": "Nonbinary dysphoria exists",
+      "effect": {
+          "socials": 0,
+          "trus": -3,
+          "hrt": 0,
+          "lib": 0
       }
   },
   {
