@@ -9,7 +9,7 @@ questions = [
       }
   },
   {
-      "question": "Autogynephelia is a real phenomenon",
+      "question": "Autogynephilia is a real phenomenon",
       "effect": {
           "socials": 5,
           "trus": 0,
