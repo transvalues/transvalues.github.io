@@ -45,7 +45,7 @@ questions = [
       }
   },
   {
-      "question": "All trans women can be grouped into 2 categories: AGP and HSTS",
+      "question": "All trans women can be grouped into 2 categories: <abbr title=\"Autogynephilia\">AGP</abbr> & <abbr title=\"homosexual transsexual\">HSTS</abbr>",
       "effect": {
           "socials": 7,
           "trus": -2,
